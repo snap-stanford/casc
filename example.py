@@ -1,4 +1,4 @@
-from CASC_solver import CASCSolver
+from masa import CASCSolver
 import numpy as np
 import sys
 import pickle

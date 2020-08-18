@@ -1,9 +1,8 @@
-from CASC_solver import CASCSolver
+from masa.CASC_solver import CASCSolver
 import numpy as np
-import sys
 import pickle
 import os
-import time
+
 CLUSTER_NUMBER = 10
 
 

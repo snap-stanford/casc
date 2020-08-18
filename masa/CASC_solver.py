@@ -1,16 +1,13 @@
-import numpy as np
 import collections
 import logging
-
-from scipy import stats
 
 from sklearn import mixture
 import time
 from multiprocessing import Pool
 from collections import deque
-from src.CASC_helper import *
-from src.motif.find_motif import PerformAssignment
-from src.admm_solver import ADMMSolver
+from .src.CASC_helper import *
+from .src.motif.find_motif import PerformAssignment
+from .src.admm_solver import ADMMSolver
 #######################################################################################################################################################################
 np.set_printoptions(formatter={'float': lambda x: "{0:0.4f}".format(x)})
 np.random.seed(103)  # 102
