@@ -1,6 +1,12 @@
 # MASA
 Solver for MASA: Motif-Aware State Assignment (previously called CASC)
 
+## Install (this Fork)
+Install via the following command in terminal:
+```
+pip install git+https://github.com/RWTH-EBC/masa.git@development
+```
+
 ## Instructions
 
 From the main directory import the file CASC_solver `from CASC_solver import CASCSolver`
